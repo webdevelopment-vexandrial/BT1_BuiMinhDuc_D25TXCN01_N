@@ -1,17 +1,67 @@
-<!-- Buổi 01 - HTML / tags -->
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiniShop - Phụ kiện công nghệ</title>
+    <title>Mini shop phụ kiện công nghệ</title>
 </head>
-
 <body>
-    <h1>Minishop</h1>
-    <p>Chào mừng bạn đến với MiniShop - nơi bạn có thể tìm thấy mọi thứ về phụ kiện công nghệ! </p>
-    <p><a href="about.html">Giới thiệu về MiniShop</a></p>
+    <header class="site-header">
+        <h1>MiniShop</h1>
+        <nav class="main-nav">
+            <a href="index.html">Trang chủ</a>
+            <a href="about.html">Giới thiệu</a>
+            <a href="register.html">Đăng ký</a>
+            <a href="cart.html">Giỏ hàng</a>
+            <a href="login.html">Đăng nhập</a>
+            <a href="contact.html">Liên hệ</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Sản phẩm nổi bật</h2>
+            <div class="product-list">
+                <article class="product_cart">
+                    <img src="images/sp01.jpg" alt="Chuột không dây M1" width="200">
+                    <h3>Chuột không dây M1</h3>
+                    <p class="price">250.000</p>
+                    <a href="product.htm">Xem chi tiết</a>
+                </article>
+                <article class="product_cart">
+                    <img src="images/sp02.png" alt="Bàn phím cơ K2" width="200">
+                    <h3>Bàn phím cơ K2</h3>
+                    <p class="price">750.000</p>
+                    <a href="product.htm">Xem chi tiết</a>
+                </article>
+                <article class="product_cart">
+                    <img src="images/sp03.png" alt="USB SanDisk" width="200">
+                    <h3>USB SanDisk</h3>
+                    <p class="price">150.000</p>
+                    <a href="product.htm">Xem chi tiết</a>
+                </article>
+                <article class="product_cart">
+                    <img src="images/sp04.png" alt="Tai nghe không dây" width="200">
+                    <h3>Tai nghe không dây</h3>
+                    <p class="price">450.000</p>
+                    <a href="product.htm">Xem chi tiết</a>
+                </article>
+                <article class="product_cart">
+                    <img src="images/sp05.png" alt="Webcam Rapoo HD 1080P" width="200">
+                    <h3>Webcam Rapoo HD 1080P</h3>
+                    <p class="price">550.000</p>
+                    <a href="product.htm">Xem chi tiết</a>
+                </article>
+                <article class="product_cart">
+                    <img src="images/sp06.png" alt="Đế tản nhiệt laptop Rapoo" width="200">
+                    <h3>Đế tản nhiệt laptop Rapoo</h3>
+                    <p class="price">650.000</p>
+                    <a href="product.htm">Xem chi tiết</a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site_footer">
+        <p>&copy; 2026 MiniShop.Dự án thực hành lập trình web</p>
+    </footer>
 </body>
-
 </html>
